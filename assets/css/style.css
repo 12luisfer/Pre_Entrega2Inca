@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap");
-/* Reset de estilos */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,20 +7,21 @@
   list-style-type: none;
 }
 
+
+
 body {
   font-family: "Monomaniac One", sans-serif;
   background: url(../backgrounds/background-index.png);
   background-size: cover;
   background-attachment: fixed;
   font-family: "Chakra Petch", sans-serif;
-  /* overflow-x: hidden; */
 }
 
 
 
 
 
-/*navegador*/
+/*header/navegador*/
 .header {
   position: fixed;
   width: 100%;
@@ -31,12 +32,14 @@ body {
   background-color: #000000cc;
   margin-top: -10px;
 }
-
+/*logo de la tienda tamaño*/
 .logo {
-  width: 11.25rem;
-  height: 9.37rem;
+  width: 11rem;
+  height: 9rem;
 }
 
+
+/*navegador links/el contenedor*/
 .navbar {
   width: 90%;
   display: flex;
@@ -49,16 +52,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px;
+  margin: 50px;
   gap: 15px;
 }
 
-.icon-nav {
-  font-size: 1.87rem;
-  text-align: center;
-  color: deepskyblue;
-}
-
+/*color de los links*/
 .link a {
   font-size: 1.5rem;
   font-weight: bold;
@@ -66,22 +64,16 @@ body {
   text-align: center;
 }
 
-.btn {
-  background-color: transparent;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: chartreuse;
-  margin: 0 15px;
-}
+
 .login {
   font-size: 1.56rem;
   color: chartreuse;
   background-color: transparent;
 }
+/*icono de hamburg. y registro*/
 .icon {
   margin: 0 30px;
   background-color: transparent;
-  color: chartreuse;
   font-size: 1.56rem;
   cursor: pointer;
 }
@@ -89,7 +81,11 @@ body {
 
 
 
-/* Hero o portada  */
+
+
+
+
+/* Hero o portada/bienvenido/introduccion  */
 #Hero {
   width: 100%;
   display: flex;
@@ -116,7 +112,9 @@ body {
 
 
 
-/* Acerca de  */
+
+
+/* Acerca de nostros */
 #About {
   width: 100%;
   display: flex;
@@ -138,6 +136,9 @@ body {
   margin-top: 30px;
   color: #fff;
 }
+
+
+
 
 
 
@@ -287,6 +288,12 @@ span {
   color: #fff;
 }
 
+
+
+
+
+
+
 /*  Servicio Técnico(soporte) */
 #Service {
   width: 100%;
@@ -366,6 +373,22 @@ span {
   width: 12.5rem;
   color: chartreuse;
 }
+/*servicio tecnico(soporte)*/
+
+.service-title {
+  max-width: 100%;
+  font-size: 2.25rem;
+}
+.icon-service {
+  font-size: 6rem;
+}
+
+
+
+
+
+
+
 
 /* Contacto */
 #Contact {
@@ -463,21 +486,15 @@ span {
   color: #fff;
 }
 
+
+
+
 /* Hago desaparecer el check del menu-toggle y cart-toggle */
 #menu-toggle,
 #cart-toggle {
   display: none;
 }
 
-/*servicio tecnico(soporte)*/
-
-.service-title {
-  max-width: 100%;
-  font-size: 2.25rem;
-}
-.icon-service {
-  font-size: 6rem;
-}
 
 /* seccion contacto */
 
