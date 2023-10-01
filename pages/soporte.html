@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Milo Byte Computación</title>
+
+    <!------ CSS ----->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!----- Tipografía ----->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <!--header-->
+    <header class="header">
+        <img src="../assets/logo/milo.png" alt="logo-tienda" class="logo" />
+
+        <nav class="navbar">
+            <!--- label e input con el icono del menú hamburguesa --->
+            <label for="menu-toggle" class="menu-label">
+                <i class="fa-solid fa-bars-staggered icon"></i>
+            </label>
+            <input type="checkbox" id="menu-toggle" />
+            <!--Acá arranca el menú-->
+            <ul class="navbar-list">
+                <li class="link"><a href="../index.html">Inicio</a></li>
+                <li class="link"><a href="acerca.html">Acerca de</a></li>
+                <li class="link"><a href="productos.html">Productos</a></li>
+                <li class="link"><a href="contacto.html">Contacto</a></li>
+                <li class="link"><a href="soporte.html">Soporte</a></li>
+            </ul>
+            <!--- contenedor enlaces para dirigirse a las páginas de login y register --->
+            <div class="cont-btn">
+                <a class="login" href="../pages/login.html" class="btn"><i class="fa-solid fa-user icon"></i>Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!---Sección Servicio Tecnico-->
+        <section id="Service">
+            <h2 class="service-title">SERVICIO TÉCNICO</h2>
+            <div class="cont-services">
+                <div class="cont-service">
+                    <i class="fa-solid fa-screwdriver-wrench icon-service"></i>
+                    <p class="service-text">
+                        Instalación de software para Mac y Windows
+                    </p>
+                    <button class="service-btn">SOLICITAR PRESUPUESTO</button>
+                </div>
+
+                <!--- Back Up --->
+                <div class="cont-service">
+                    <i class="fa-solid fa-cloud-arrow-up icon-service"></i>
+                    <p class="service-text">Servicio de Back Up</p>
+
+                    <button class="service-btn">SOLICITAR PRESUPUESTO</button>
+                </div>
+
+                <!--- Mantenimiento --->
+                <div class="cont-service">
+                    <i class="fa-solid fa-microchip icon-service"></i>
+                    <p class="service-text">Mantenimiento y reparación de hardware</p>
+
+                    <button class="service-btn">SOLICITAR PRESUPUESTO</button>
+                </div>
+
+                <!--- Actualización de Hardware --->
+                <div class="cont-service">
+                    <i class="fa-brands fa-space-awesome icon-service"></i>
+                    <p class="service-text">Actualización de Hardware</p>
+                    <button class="service-btn">SOLICITAR PRESUPUESTO</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--- Footer-->
+    <footer class="footer">
+        <div class="copyrigth">
+            <p class="copyrigth-text">
+                Todos los derechos reservados &copy; 2023 Milo Byte Computación &reg;
+            </p>
+        </div>
+    </footer>
+    <!--- Fontawesome ---->
+    <script src="https://kit.fontawesome.com/89281333f4.js" crossorigin="anonymous"></script>
+</body>
