@@ -158,6 +158,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 40px;
+  
 }
 
 .card {
@@ -169,6 +170,7 @@ body {
   margin: 0 80px;
   gap: 10px;
   max-width: 20rem;
+background-color: transparent;
 }
 
 .card-img {
@@ -468,7 +470,7 @@ span {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 380px;
 }
 
 .copyrigth-text {
@@ -538,7 +540,7 @@ span {
     justify-content: center;
     align-items: center;
     width: 11rem;
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0);
   }
   .cart-item img {
     width: 5rem;
