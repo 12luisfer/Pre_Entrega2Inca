@@ -567,9 +567,9 @@ span {
     flex-direction: column;
     opacity: 0;
     z-index: 7;
-    left: 0;
-    top: 11.25rem;
-    border-radius: 8px;
+    right: 780px;
+    top: 11rem;
+    border-radius:8px;
   }
   #menu-toggle:checked + .navbar-list {
     opacity: 1;
@@ -606,7 +606,36 @@ span {
     flex-wrap: wrap;
     flex-direction: column;
   }
+
+    /*navegador de costado*/
+    .navbar-list {
+      width: 50%;
+      height: calc(80vh - 150px);
+      padding: 0 65px;
+      background-color: transparent;
+      position: absolute;
+      top: 150px;
+      flex-direction: column;
+      opacity: 0;
+      z-index: 7;
+      right: -100px;
+      top: 11rem;
+      border-radius:8px;
+    }
+    #menu-toggle:checked + .navbar-list {
+      opacity: 1;
+    }
+  
+  
+    /* menu del costado*/
+    #menu-toggle:checked + .navbar-list {
+      background-color: rgba(255, 0, 0, 0.254);
+      width: 50px 
+      }
+  
 }
+
+
 
 
 
